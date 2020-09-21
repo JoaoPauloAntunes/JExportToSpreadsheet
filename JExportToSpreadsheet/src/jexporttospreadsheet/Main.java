@@ -16,15 +16,15 @@ import java.util.logging.Logger;
 public class Main {
     public static void main(String[] args) {
         
+        JExport jExp = new JExport();
         String[] columnsName = {"col 0", "col 1", "col 2", "col 3"};
         String[][] content = {
             {"0", "1", "2", "3"},
             {"4", "5", "6", "7"}
         };
-        JExport jExp = new JExport(columnsName, content);
         
         try {
-            jExp.export("2020-09-20_example");
+            jExp.export("2020-09-20_example", columnsName, content);
         } catch (FileNotFoundException ex) {
             Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
         } 

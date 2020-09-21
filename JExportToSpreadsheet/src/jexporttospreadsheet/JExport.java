@@ -13,14 +13,10 @@ import java.util.Formatter;
  * @author joao
  */
 public class JExport {
-    private String[] columnsName;
-    private String[][] content;
-    public JExport(String[] columnsName, String[][] content) {
-        this.columnsName = columnsName;
-        this.content = content;
+    public JExport() {
     }
     
-    public void export(String fileName) throws FileNotFoundException {
+    public void export(String fileName, String[] columnsName, String[][] content) throws FileNotFoundException {
         String contentThead = "";
         String contentTbody = "";
         String contentTr = "";
