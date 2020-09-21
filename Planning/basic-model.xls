@@ -1,0 +1,25 @@
+
+<div>
+	<table class='table table-hover'>
+		<thead>
+			<tr height='height: 30px;'>
+				<th style='background:#083923; color: #fff; text-align: center'>a</th>
+				<th style='background:#083923; color: #fff; text-align: center'>b</th>
+				<th style='background:#083923; color: #fff; text-align: center'>c</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>	
+				<td style='border-bottom: 2px solid #878484; vertical-align: middle;'>1</td>
+				<td style='border-bottom: 2px solid #878484; vertical-align: middle;'>2</td>
+				<td style='border-bottom: 2px solid #878484; vertical-align: middle;'>3</td>
+			</tr>
+			<tr>	
+				<td style='border-bottom: 2px solid #878484; vertical-align: middle;'>1</td>
+				<td style='border-bottom: 2px solid #878484; vertical-align: middle;'>2</td>
+				<td style='border-bottom: 2px solid #878484; vertical-align: middle;'>3</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div style='page-break-before: always;'></div>
